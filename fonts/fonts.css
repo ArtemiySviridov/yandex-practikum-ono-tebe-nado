@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Raleway;
+  font-family: 'Raleway-Regular';
   src:
     url(./Raleway-Regular.woff2) format('woff2'),
     url(./Raleway-Regular.woff) format('woff');
@@ -8,10 +8,18 @@
 }
 
 @font-face {
-  font-family: Raleway;
+  font-family: 'Raleway-Bold';
   src:
     url(./Raleway-Bold.woff2) format('woff2'),
     url(./Raleway-Bold.woff) format('woff');
   font-weight: bold;
   font-display: swap;
 }
+
+/*
+  Raleway везде
+ 1. size: 18px line-height: 100% ---> Хедер меню и ссылки
+ 2. size: 100px line-height: 115 letter-spacing: 30% uppercase weight: 700 ---> Баннер (слова)
+ 3. size: 22px line-height: 28px letter-spacing: 90% uppercase ---> Баннер (описание)
+ 4. size: 22px
+ */
